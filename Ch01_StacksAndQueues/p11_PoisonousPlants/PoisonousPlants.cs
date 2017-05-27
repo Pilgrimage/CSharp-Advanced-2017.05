@@ -8,84 +8,58 @@
     {
         public static void Main()
         {
+            // This code does not work properly - 33/100 
+
             int plantQty = int.Parse(Console.ReadLine());
-            Queue<Plant> plants = new Queue<Plant>();
-            long[] pesticides = Console.ReadLine().Trim().Split().Select(long.Parse).ToArray();
-
-            for (int i = 1; i <= plantQty; i++)
-            {
-                Plant newPlant = new Plant(pesticides[i - 1], i);
-                plants.Enqueue(newPlant);
-            }
-
+            int[] pesticides = Console.ReadLine().Trim().Split().Select(int.Parse).ToArray();
+            Queue<int> plants = new Queue<int>(pesticides);
 
             for (int i = 1; i <= plantQty; i++)
             {
                 int dead = KillTheWeak(plants);
                 if (dead == 0)
                 {
-                    Console.WriteLine(i-1);
+                    Console.WriteLine(i - 1);
                     return;
                 }
-                //Console.WriteLine($"Day {i} -> {dead} plants died");
             }
 
         }
 
-        private static int KillTheWeak(Queue<Plant> plants)
+        private static int KillTheWeak(Queue<int> plants)
         {
             int plantInstantQty = plants.Count;
-            Plant leftPlant;
-            Plant currentPlant;
             int dead = 0;
             bool forDeleting = false;
 
-            for (int i = 1; i < plantInstantQty; i++)
+            for (int i = 1; i <= plantInstantQty; i++)
             {
-                leftPlant = plants.Dequeue();
-                if (forDeleting)
+                int leftPlant = plants.Dequeue();
+
+                if (forDeleting == false)
                 {
                     plants.Enqueue(leftPlant);
                 }
-                currentPlant = plants.Peek();
 
-                if (currentPlant.PlantPesticide > leftPlant.PlantPesticide)
+                if (i == plantInstantQty)
+                {
+                    break;
+                }
+
+                int currentPlant = plants.Peek();
+                forDeleting = false;
+
+                if (currentPlant >= leftPlant)
                 {
                     forDeleting = true;
                     dead += 1;
                 }
-                else
-                {
-                    forDeleting = false;
-                }
 
             }
+
+            //Console.WriteLine(String.Join("-", plants));
             return dead;
         }
 
     }
-    public class Plant
-    {
-        private int plantNumber;
-        private long plantPesticide;
-
-        public Plant(long plantPesticide, int plantNumber)
-        {
-            this.PlantNumber = plantNumber;
-            this.PlantPesticide = plantPesticide;
-        }
-
-        public long PlantPesticide
-        {
-            get { return plantPesticide; }
-            set {plantPesticide = value;}
-        }
-
-        public int PlantNumber
-        {
-            get { return plantNumber; }
-            set { plantNumber = value; }
-        }
-    }
-
 }
