@@ -28,7 +28,7 @@
                     {
                         allDragons[drgType][drgName][0] = drgDamage;
                         allDragons[drgType][drgName][1] = drgHealth;
-                        allDragons[drgType][drgName][3] = drgArmor;
+                        allDragons[drgType][drgName][2] = drgArmor;
                     }
                     else
                     {
@@ -43,8 +43,6 @@
                     allDragons[drgType].Add(drgName, newStats);
                 }
             }
-
-            Console.WriteLine();
 
             foreach (var dtype in allDragons)
             {
