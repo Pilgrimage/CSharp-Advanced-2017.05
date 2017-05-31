@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F548DDA1-92DB-404A-A7F9-B2B76A6D2A87}"
+	ProjectSection(SolutionItems) = preProject
+		03. CSharp-Advanced-Matrices-Exercises.docx = 03. CSharp-Advanced-Matrices-Exercises.docx
+		03. CSharp-Advanced-Matrices-Lab.docx = 03. CSharp-Advanced-Matrices-Lab.docx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab01_SumMatrixElements", "lab01_SumMatrixElements\lab01_SumMatrixElements.csproj", "{4B98B153-E4F4-4DEA-8E25-CEA98191575E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab02_MaximumSumOf2xSubmatrix", "lab02_MaximumSumOf2xSubmatrix\lab02_MaximumSumOf2xSubmatrix.csproj", "{62B40474-EBF4-4027-B884-3068F07C2E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab03_GroupNumbers", "lab03_GroupNumbers\lab03_GroupNumbers.csproj", "{6B398553-2046-4050-840B-17926EDEBC9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab04_PascalTriangle", "lab04_PascalTriangle\lab04_PascalTriangle.csproj", "{F5E53FCA-7828-41F2-A0ED-F9076EE41251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab03_GroupNumbers2", "lab03_GroupNumbers2\lab03_GroupNumbers2.csproj", "{74E28D12-FA6E-449B-99CA-6BB06327E42A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01_MatrixOfPalindromes", "p01_MatrixOfPalindromes\p01_MatrixOfPalindromes.csproj", "{D406B36F-AEEF-48F5-AC1E-9FE15985284B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B98B153-E4F4-4DEA-8E25-CEA98191575E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B98B153-E4F4-4DEA-8E25-CEA98191575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B98B153-E4F4-4DEA-8E25-CEA98191575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B98B153-E4F4-4DEA-8E25-CEA98191575E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B40474-EBF4-4027-B884-3068F07C2E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B40474-EBF4-4027-B884-3068F07C2E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B40474-EBF4-4027-B884-3068F07C2E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B40474-EBF4-4027-B884-3068F07C2E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B398553-2046-4050-840B-17926EDEBC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B398553-2046-4050-840B-17926EDEBC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B398553-2046-4050-840B-17926EDEBC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B398553-2046-4050-840B-17926EDEBC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E53FCA-7828-41F2-A0ED-F9076EE41251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E53FCA-7828-41F2-A0ED-F9076EE41251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E53FCA-7828-41F2-A0ED-F9076EE41251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E53FCA-7828-41F2-A0ED-F9076EE41251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E28D12-FA6E-449B-99CA-6BB06327E42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E28D12-FA6E-449B-99CA-6BB06327E42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E28D12-FA6E-449B-99CA-6BB06327E42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E28D12-FA6E-449B-99CA-6BB06327E42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D406B36F-AEEF-48F5-AC1E-9FE15985284B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D406B36F-AEEF-48F5-AC1E-9FE15985284B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D406B36F-AEEF-48F5-AC1E-9FE15985284B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D406B36F-AEEF-48F5-AC1E-9FE15985284B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
