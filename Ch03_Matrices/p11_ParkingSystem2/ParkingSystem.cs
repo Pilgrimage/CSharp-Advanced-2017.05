@@ -1,4 +1,4 @@
-﻿namespace p11_ParkingSystem
+﻿namespace p11_ParkingSystem2
 {
     using System;
     using System.Collections.Generic;
@@ -7,45 +7,43 @@
     {
         public static void Main()
         {
-            // This solution get 80/100 points in Judge.
-            // Tests 5 & 9 break the memory limit!
+            // Solution without matrices => 100/100 in Judge
 
-            string[] size = Console.ReadLine().Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries);
+            string[] size = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             int rows = int.Parse(size[0]);
             int cols = int.Parse(size[1]);
 
-            bool[][] parking = new bool[rows][];
-            for (int i = 0; i < rows; i++)
-            {
-                parking[i] = new bool[cols];
-            }
+            Dictionary<int, HashSet<int>> parking = new Dictionary<int, HashSet<int>>();
 
             string input = Console.ReadLine();
 
             while (input != "stop")
             {
-                string[] parameters = input.Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries);
+                string[] parameters = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
                 int entryRow = int.Parse(parameters[0]);
                 int desiredRow = int.Parse(parameters[1]);
                 int desiredCol = int.Parse(parameters[2]);
 
-                // Where i parked?
+                // Where is parked?
                 int parkColumn = 0;
-                if (parking[desiredRow][desiredCol] == false)
+
+                if (!IsOccupied(parking, desiredRow, desiredCol))
                 {
                     parkColumn = desiredCol;
                 }
                 else
                 {
-                    for (int i = 1; i < cols-1; i++)
+                    for (int i = 1; i < cols - 1; i++)
                     {
-                        if (((desiredCol - i) > 0) && parking[desiredRow][desiredCol - i] == false)
+                        if (((desiredCol - i) > 0) &&
+                            !IsOccupied(parking, desiredRow, (desiredCol - i)))
                         {
                             parkColumn = (desiredCol - i);
                             break;
                         }
-                        else if (((desiredCol + i) < cols) && parking[desiredRow][desiredCol + i] == false)
+                        else if (((desiredCol + i) < cols) &&
+                                 !IsOccupied(parking, desiredRow, (desiredCol + i)))
                         {
                             parkColumn = (desiredCol + i);
                             break;
@@ -59,14 +57,29 @@
                 }
                 else
                 {
-                    parking[desiredRow][parkColumn] = true;
+                    parking[desiredRow].Add(parkColumn);
                     int steps = Math.Abs(entryRow - desiredRow) + 1 + parkColumn;
                     Console.WriteLine(steps);
                 }
 
                 input = Console.ReadLine();
             }
+        }
 
+        private static bool IsOccupied(Dictionary<int, HashSet<int>> parking, int row, int col)
+        {
+            if (parking.ContainsKey(row))
+            {
+                if (parking[row].Contains(col))
+                {
+                    return true;
+                }
+            }
+            else
+            {
+                parking.Add(row, new HashSet<int>());
+            }
+            return false;
         }
     }
 }
