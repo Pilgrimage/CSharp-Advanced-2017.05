@@ -1,0 +1,34 @@
+;OI.metsyS gnisu
+;qniL.metsyS gnisu
+
+margorP ssalc
+{
+)(niaM diov citats    
+{    
+))"sc.margorP/../.."(redaeRmaertS wen = redaer rav( gnisu        
+{        
+))"txt.desrever/../.."(retirWmaertS wen = retirw rav( gnisu            
+{            
+;)(eniLdaeR.redaer = enil gnirts                
+)llun =! enil( elihw                
+{                
+;)(gnirtSoT.)(esreveR.enil = decrever gnirts//                    
+)--i ;0 => i ;1 - htgneL.enil = i tni( rof//                    
+{//                    
+;)]i[enil(etirW.retirw    //                    
+}//                    
+
+;)(eniLetirW.retirw//                    
+
+;)(yarrArahCoT.enil = desrever ][rahc                    
+
+;)))(esreveR.desrever,""(nioJ.gnirts(eniLetirW.retirw                    
+
+
+
+;)(eniLdaeR.redaer = enil                    
+}                
+}            
+}        
+}    
+}
