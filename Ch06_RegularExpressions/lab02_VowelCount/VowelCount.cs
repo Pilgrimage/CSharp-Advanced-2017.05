@@ -1,22 +1,21 @@
-﻿namespace lab01_MatchCount
+﻿namespace lab02_VowelCount
 {
     using System;
     using System.Text.RegularExpressions;
 
-    public class MatchCount
+    public class VowelCount
     {
         public static void Main()
         {
-            string pattern = Console.ReadLine().Trim();
             string text = Console.ReadLine();
+
+            string pattern = @"[aeiouyAEIOUY]";
 
             Regex regex = new Regex(pattern);
 
             MatchCollection matches = regex.Matches(text);
 
-            int count = matches.Count;
-
-            Console.WriteLine(count);
+            Console.WriteLine($"Vowels: {matches.Count}");
         }
     }
 }
