@@ -1,13 +1,13 @@
-﻿namespace p01_MatchFullName
+﻿namespace p02_MatchPhoneNumber
 {
     using System;
     using System.Text.RegularExpressions;
 
-    public class MatchFullName
+    public class MatchPhoneNumber
     {
         public static void Main()
         {
-            string pattern = @"\b[A-Z][a-z]+ [A-Z][a-z]+\b"; ;
+            string pattern = @"(?<=^|\s)[\+]359( |-)2\1\d{3}\1\d{4}\b";
 
             Regex regex = new Regex(pattern);
 
@@ -16,9 +16,9 @@
             while (inputLine != "end")
             {
                 Match match = regex.Match(inputLine);
-                if (match.Length!=0)
+                if (match.Length != 0)
                 {
-                Console.WriteLine(match.Value);
+                    Console.WriteLine(match.Value);
                 }
 
                 inputLine = Console.ReadLine();
