@@ -53,7 +53,6 @@
 
                 inputLine = Console.ReadLine();
             }
-
         }
     }
 }
