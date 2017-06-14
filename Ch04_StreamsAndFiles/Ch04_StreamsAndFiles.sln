@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{662EEDD8-9557-4DB1-A3E5-5BCA61691873}"
 	ProjectSection(SolutionItems) = preProject
-		04. CSharp-Advanced-Streams-Exercise.docx = 04. CSharp-Advanced-Streams-Exercise.docx
+		04.CSAdv-Streams-Exercise.docx = 04.CSAdv-Streams-Exercise.docx
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01_OddLines", "p01_OddLines\p01_OddLines.csproj", "{665DC8FF-8C38-4BD8-B162-4C0DE2175122}"
