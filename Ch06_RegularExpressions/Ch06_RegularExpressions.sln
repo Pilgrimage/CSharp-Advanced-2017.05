@@ -7,8 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab01_MatchCount", "lab01_M
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE6D8084-53A2-41F0-95A6-70EA01280112}"
 	ProjectSection(SolutionItems) = preProject
-		06. CSharp-Advanced-Regular-Expressions-Exercises.docx = 06. CSharp-Advanced-Regular-Expressions-Exercises.docx
-		06. CSharp-Advanced-Regular-Expressions-Lab.docx = 06. CSharp-Advanced-Regular-Expressions-Lab.docx
+		06.CSAdv-Reg-Ex-Exercises.docx = 06.CSAdv-Reg-Ex-Exercises.docx
+		06.CSAdv-Reg-Ex-Lab.docx = 06.CSAdv-Reg-Ex-Lab.docx
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab02_VowelCount", "lab02_VowelCount\lab02_VowelCount.csproj", "{E2F08EB3-B009-4F8F-97A6-70A53D8DE89D}"

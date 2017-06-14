@@ -12,6 +12,7 @@
 
             // Solution with RegEx
             string pattern = @"([A-Za-z])\1+";
+            //string pattern = @"(.)\1+";
 
             Regex regex = new Regex(pattern);
             Match match = regex.Match(text);
