@@ -13,8 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab04_MatchingBrackets", "l
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A6B1ECA-B803-4BBB-8ED1-415FBFDE6374}"
 	ProjectSection(SolutionItems) = preProject
-		01. CSharp-Advanced-Stacks-And-Queues-Exercises.docx = 01. CSharp-Advanced-Stacks-And-Queues-Exercises.docx
-		01. CSharp-Advanced-Stacks-And-Queues-Lab.docx = 01. CSharp-Advanced-Stacks-And-Queues-Lab.docx
+		01.CSAdv-Stacks-And-Queues-Exercises.docx = 01.CSAdv-Stacks-And-Queues-Exercises.docx
+		01.CSAdv-Stacks-And-Queues-Lab.docx = 01.CSAdv-Stacks-And-Queues-Lab.docx
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab05_HotPotato", "lab05_HotPotato\lab05_HotPotato.csproj", "{529A3C8E-1069-405A-ACAC-3709BFDEA3FC}"
