@@ -3,6 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Instructions", "Instructions", "{46C505D9-F78F-4EAB-815A-451AE66B8090}"
+	ProjectSection(SolutionItems) = preProject
+		Instructions\01.CSAdv-Stacks-And-Queues-Lab.docx = Instructions\01.CSAdv-Stacks-And-Queues-Lab.docx
+		Instructions\02.CSAdv-Sets-And-Dictionaries-Lab.docx = Instructions\02.CSAdv-Sets-And-Dictionaries-Lab.docx
+		Instructions\02.data.txt = Instructions\02.data.txt
+		Instructions\03.CSAdv-Files-And-Directories-Lab.docx = Instructions\03.CSAdv-Files-And-Directories-Lab.docx
+		Instructions\03.test1.txt = Instructions\03.test1.txt
+		Instructions\03.test2.txt = Instructions\03.test2.txt
+		Instructions\03.test3.txt = Instructions\03.test3.txt
+		Instructions\04.actual.txt = Instructions\04.actual.txt
+		Instructions\04.CSAdv-Exception-Handling-Lab.docx = Instructions\04.CSAdv-Exception-Handling-Lab.docx
+		Instructions\04.expected.txt = Instructions\04.expected.txt
+		Instructions\05.CSAdv-Strings-And-Text-Processing-Lab.docx = Instructions\05.CSAdv-Strings-And-Text-Processing-Lab.docx
+		Instructions\05.getHelp.txt = Instructions\05.getHelp.txt
+		Instructions\06.CSAdv-Regular-Expressions-Lab.docx = Instructions\06.CSAdv-Regular-Expressions-Lab.docx
+		Instructions\06.dataNew.txt = Instructions\06.dataNew.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
