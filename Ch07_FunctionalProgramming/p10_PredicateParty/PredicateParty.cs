@@ -44,7 +44,7 @@
 
             if (partisans.Count > 0)
             {
-                Console.WriteLine("{0} are going to the party!", string.Join(" ", partisans));
+                Console.WriteLine("{0} are going to the party!", string.Join(", ", partisans));
             }
             else
             {
