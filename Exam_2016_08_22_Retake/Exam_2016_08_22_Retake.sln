@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{417B32F9-3461-4A1D-AAA9-C7E4C56956F5}"
+	ProjectSection(SolutionItems) = preProject
+		01.SecondNature.docx = 01.SecondNature.docx
+		02.NaturesProphet.docx = 02.NaturesProphet.docx
+		03.NMS.docx = 03.NMS.docx
+		04.AshesOfRoses.docx = 04.AshesOfRoses.docx
+		judge.url = judge.url
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02_NaturesProphet", "p02_NaturesProphet\p02_NaturesProphet.csproj", "{46DB18E9-B66D-4782-BF00-813B39C8D125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02_NaturesProphet2", "p02_NaturesProphet2\p02_NaturesProphet2.csproj", "{D1BFDA69-8D5B-484E-9204-D1D389BA6ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03_NMS", "p03_NMS\p03_NMS.csproj", "{EFA596D8-7512-4A97-8E21-AD29940F3B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p04_AshesOfRoses", "p04_AshesOfRoses\p04_AshesOfRoses.csproj", "{B3B8CCD2-7F24-4AFD-8316-7D5A33AEE17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01_SecondNature", "p01_SecondNature\p01_SecondNature.csproj", "{C1FF13BE-C4A1-42B0-8562-9B5F51750034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46DB18E9-B66D-4782-BF00-813B39C8D125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DB18E9-B66D-4782-BF00-813B39C8D125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DB18E9-B66D-4782-BF00-813B39C8D125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DB18E9-B66D-4782-BF00-813B39C8D125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BFDA69-8D5B-484E-9204-D1D389BA6ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BFDA69-8D5B-484E-9204-D1D389BA6ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BFDA69-8D5B-484E-9204-D1D389BA6ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BFDA69-8D5B-484E-9204-D1D389BA6ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA596D8-7512-4A97-8E21-AD29940F3B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA596D8-7512-4A97-8E21-AD29940F3B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA596D8-7512-4A97-8E21-AD29940F3B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA596D8-7512-4A97-8E21-AD29940F3B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B8CCD2-7F24-4AFD-8316-7D5A33AEE17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B8CCD2-7F24-4AFD-8316-7D5A33AEE17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B8CCD2-7F24-4AFD-8316-7D5A33AEE17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B8CCD2-7F24-4AFD-8316-7D5A33AEE17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FF13BE-C4A1-42B0-8562-9B5F51750034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FF13BE-C4A1-42B0-8562-9B5F51750034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FF13BE-C4A1-42B0-8562-9B5F51750034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FF13BE-C4A1-42B0-8562-9B5F51750034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
