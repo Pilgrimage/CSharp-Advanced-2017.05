@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7788A29F-6F8E-4C2B-A419-ECDC6BE532E9}"
+	ProjectSection(SolutionItems) = preProject
+		01.CubicArtillery.docx = 01.CubicArtillery.docx
+		02.CubicsRube.docx = 02.CubicsRube.docx
+		03.CubicMessages.docx = 03.CubicMessages.docx
+		04.CubicAssault.docx = 04.CubicAssault.docx
+		Judge.url = Judge.url
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
